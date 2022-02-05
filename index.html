@@ -1,0 +1,227 @@
+<!DOCTYPE html5>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+  <!-- Bootstrap version 5.0.0-beta2 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link href="css/style.css" rel="stylesheet" />
+
+  <title> MC Carpinteria Metálica </title>
+  <!-- meta google 🕷️ -->
+<meta name="description" content="MC Carpintería Metálica">
+<meta name="keywords" content="Carpintería Metálica, Herreria, portones, puertas, trabajos a medida">
+<meta name="author" content="Desarollo: Franco Frattaroli. https://instagram.com/frafratt ">
+<meta name="copyright" content="MC Carpinteria Metálica">
+
+<meta name="robots" content="INDEX, FOLLOW">   
+<link rel="icon" href="imagenes/icono.png" type="image/png">
+
+<!-- meta Fb -->
+<meta property="og:title" content="MC Carpintería Metálica">
+<meta property="og:description" content="Carpintería Metálica, Herreria, portones, puertas, trabajos a medida">
+<meta property="og:type" content="article">
+<meta property="og:image" content="imagenes/icono.png">
+<meta property="og:url" content="https://mccarpinteriametalica.com.ar">
+<meta property="og:secure_url" content="https://mccarpinteriametalica.com.ar">
+
+<!-- meta tw -->
+<meta property="twitter:title" content="MC Carpintería Metálica">
+<meta property="twitter:description" content="Carpintería Metálica, Herreria, portones, puertas, trabajos a medida">
+<meta property="twitter:type" content="article">
+<meta property="twitter:image" content="imagenes/icono.png">
+<meta property="twitter:url" content="https://mccarpinteriametalica.com.ar">  
+</head>
+<body>
+  
+  <header class="container-fluid fixed-top" id="Header">
+    <ul class="nav justify-content-around">
+      
+        <a class="navbar-brand" href="#">
+          <img class="ImagenLogo" src="imagenes/loooogg2.svg" alt="">
+        </a>
+      <li class="nav-item NaveHead">
+        <a class="nav-link TabsNav" aria-current="page" href="#FotosTrabajos">Galería</a>
+      </li>
+      <li class="nav-item NaveHead">
+        <a class="nav-link TabsNav" href="#InformacionCom">Trabajos</a>
+      </li>
+      <li class="nav-item NaveHead">
+        <a class="nav-link TabsNav" href="#Contactando">Contacto</a>
+      </li>
+    </ul>
+  </header>
+  <section class="container-fluid jusify-content-center" id="Principal">
+    <div class="row">
+      <div class="bg-image Presentacion">
+        <div class="Somos" id="#ComandoSomos">
+          <div class="splash"> 
+            <img class="ImagenLogo2" src="imagenes/loooogg2.svg" alt="">
+            <p class="SubDescripcion">Trabajos a medida, atención personalizada.</p>
+          
+          </div>    
+        </div>
+      </div>
+      <!--   GALERIA   -->
+      <div class="Galeria" id="FotosTrabajos">
+        <h2 class="Titulo2">
+          Galería
+        </h2>
+        <div class="container GaleriaFotos">
+          <!--   -------------- CARRUSEL-----------------                             -->
+          <div id="CarouselDeTrabajos" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#CarouselDeTrabajos" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#CarouselDeTrabajos" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#CarouselDeTrabajos" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="imagenes/porton.jpg" class="img-fluid" alt="Porton">
+                <!--<div class="carousel-caption d-none d-md-block TextoCarousel">
+                  <h5>Portones</h5>
+                  <p>Descripcion.</p>
+                </div>-->
+              </div>
+              <div class="carousel-item">
+                <img src="imagenes/vidrios.jpg" class="img-fluid" alt="...">
+                <!--<div class="carousel-caption d-none d-md-block TextoCarousel">
+                  <h5>Techos</h5>
+                  <p>Descripcion.</p>
+                </div>-->
+              </div>
+              <div class="carousel-item">
+                <img src="imagenes/puerta.jpg" class="img-fluid" alt="...">
+                <!--<div class="carousel-caption d-none d-md-block TextoCarousel">
+                  <h5>Puerta</h5>
+                  <p>Descripcion.</p>
+                </div>-->
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#CarouselDeTrabajos"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#CarouselDeTrabajos"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div>
+        </div>
+  <div class="Informacion" id="InformacionCom">
+          <h2 class="Especializacion"> Nos especializamos en:
+          </h2>
+          <!-- Tarjetas-->
+            <div class="card mb-3 Tarjeta1">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img class="ImagenTarjeta1" src="imagenes/baranda.jpeg" alt="acero">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    
+                    <p class="card-text">Barandales de herrería</p><br>
+                    <p class="card-text">Cálculo de estructuras metálicas</p><br>
+                    <p class="card-text">Carpintería metálica</p><br>
+                    <p class="card-text">Cercos perimetrales</p><br>
+                    <p class="card-text">Diseño de estructuras metálicas</p><br>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Tarjetas -->
+            <div class="card mb-3 Tarjeta1">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img class="ImagenTarjeta1" src="imagenes/soldando.jpg" alt="acero">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    
+                    <p class="card-text">Escaleras de herrería</p><br>
+                    <p class="card-text">Frente de rejas</p><br>
+                    <p class="card-text">Herrería artesanal</p><br>
+                    <p class="card-text">Portón corredizo de hierro</p><br>
+                    <p class="card-text">Diferentes modelo de rejas</p><br>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Tarjetas-->
+            <div class="card mb-3 Tarjeta1">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img class="ImagenTarjeta1" src="imagenes/portonreja2.jpg" alt="acero">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">                    
+                    
+                    <p class="card-text">Portones</p><br>
+                    <p class="card-text">Protección para balcones</p><br>
+                    <p class="card-text">Puerta reja</p><br>
+                    <p class="card-text">Rejas de seguridad</p><br>
+                    <p class="card-text">Cerramientos y techos</p><br>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+      <!-- Contacto -->
+  <div class="Contacto" id="Contactando">
+        <h2 class="Titulo3">
+          Contacto
+        </h2>
+  <div class="Informacion2">
+          <div class="container ContactoBloque">
+            <div class="row">
+              <div class="col-sm ColumnaTel">
+                <a title="Teléfono" href="tel:+5491130704858"><img src="imagenes/llamada.svg" alt="Telefono"
+                    class="Llamada" />
+                  <br>
+                  <p> 11 3070-4858 </p>
+                </a>
+              </div>
+              <div class="col-sm ColumnaInsta">
+                <a title="Instagram" href="https://instagram.com/mc.carpinteriametalica"><img src="imagenes/ig-logo.svg"
+                    alt="Instagram" class="LogoInsta" />
+                  <br>
+                  <p> @mc.carpinteriametalica </p>
+                </a>
+              </div>
+              <div class="col-sm ColumnaMail">
+                <a title="Mail" href="mailto:mc.carpinteriametalica@hotmail.com"><img src="imagenes/correo2.svg"
+                    alt="Enviar correo" class="LogoCorreo" />
+                <br><p class="LargoMail"> mc.carpinteriametalica@hotmail.com </p></a>
+              </div>
+            </div>
+          </div>
+</div>
+        <div class="float-md-right" id="WspBoton">
+          <a href="https://api.whatsapp.com/send?phone=+5491130704858&text=Hola, ¿Te puedo solicitar presupuesto?"><img class="whats" src="imagenes/WhatsApp_Logo1.png" alt="whatsapp_contacto"></a>
+        </div>
+      </div>
+</section>
+  <footer class="container-fluid">
+    <div class="hecho">
+      <p class="Derechos">Copyright <a href="https://instagram.com/mc.carpinteriametalica"> Mc.CarpinteriaMetalica ©</a> Todos los
+        Derechos Reservados | Hecho por <a href="https://instagram.com/frafratt"> FraFratt</a> </p>
+    </div>
+  </footer>
+  <script src="carousel.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+</body>
+</html>

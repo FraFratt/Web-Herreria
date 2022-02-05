@@ -1,0 +1,775 @@
+body {
+  background-color: #382933;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+#Header {
+  background-color: #eee;
+  height: 80px;
+  width: 100%;
+  font-weight: 500;
+  margin-top: 0px;
+  border-bottom: #519872 1px solid;
+  display: block;
+}
+section {
+  margin-top: 0px;
+  background-color: #f9f3f3;
+  width: 100%;
+  height: auto;
+  display: inline-block;
+}
+footer {
+  background-color: #1e212d;
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: antiquewhite;
+  display: block;
+  border-top: 1px solid #52575d;
+}
+
+.SubDescripcion {
+  color: whitesmoke;
+  font-size: 29px;
+  text-align: center;
+  position: absolute;
+  z-index: 98;
+  display: inline-block;
+  text-align: center;
+  padding-top: 20px;
+  margin-left: -486px;
+  margin-top: 520px;
+  padding-bottom: 20px;
+  *width: auto;
+}
+
+p {
+  display: inline-block;
+}
+
+/* Header */
+
+.TabsNav {
+  display: inline-block;
+  padding: 0px;
+  padding-top: 26px;
+  font-size: 20px;
+  width: auto;
+  height: 30px;
+  color: #222831;
+}
+
+.NaveHead {
+  width: auto;
+  height: 30px;
+
+  *margin-bottom: 10px;
+}
+
+.ImagenLogo {
+  height: 69px;
+  width: auto;
+  max-width: 100%;
+}
+
+.ImagenLogo2 {
+  height: 350px;
+  width: 350px;
+  max-width: 100%;
+  margin-top: 104px;
+}
+
+.BotoneraSup {
+  display: inline-block;
+  padding-top: 20px;
+}
+
+.LogoMarca {
+  width: 77px;
+  height: 77px;
+}
+
+/* Section */
+#InformacionCom {
+}
+
+.Informacion {
+  background-color: #23223194;
+  display: inline-block;
+  width: auto;
+  height: auto;
+  border: solid 2px #393e46;
+  border-radius: 15px;
+  margin: 10px;
+  margin-bottom: 100px;
+}
+
+.Tarjeta1 {
+  width: 100%;
+  background-color: #008c30;
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  justify-content: left;
+  text-align: left;
+}
+
+.card-body {
+  font-size: 25px;
+}
+
+.Tarjeta2 {
+  display: inline-block;
+  background-color: #519872;
+  justify-content: left;
+  text-align: left;
+  width: auto;
+}
+
+.ImagenTarjeta1 {
+  *width: 290px;
+  *height: 290px;
+  *padding: 10px;
+  max-width: 100%;
+  display: block;
+  height: auto;
+  padding-left: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.ImagenTarjeta2 {
+  width: 250px;
+  height: 250px;
+}
+
+.ListadoDeTrabajos {
+  text-align: left;
+  padding: 27px;
+}
+
+.Informacion2 {
+  width: auto;
+  height: auto;
+  border: solid 2px #519872;
+  border-radius: 15px;
+  margin: 10px;
+  text-align: center;
+  background-color: #222831;
+  margin-bottom: 60px;
+}
+
+.LogoCorreo {
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 14px;
+}
+
+.ContactoBloque {
+  color: #eee;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.LogoInsta {
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.Llamada {
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.Presentacion {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/f40fd034592967.56d66f89155fb.jpg");
+  display: inline-block;
+  *margin-bottom: 20px;
+  padding-bottom: 40px;
+}
+
+.protector {
+  width: 100wh;
+  height: 100vh;
+}
+
+.somos {
+  display: inline-block;
+  z-index: 98;
+  text-align: center;
+  padding-top: 20px;
+  *background-color: blue;
+  margin-top: 120px;
+  padding-bottom: 20px;
+  width: auto;
+}
+
+.splash {
+  color: black;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.MCmarca {
+  color: #0bb41a;
+  font-size: 45px;
+  text-align: center;
+  font-weight: 600;
+}
+
+#ComandoSomos {
+}
+
+.Titulo2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 40px;
+  color: #eee;
+  margin-top: 40px;
+}
+
+/* CARRUSEL*/
+
+#CarouselDeTrabajos {
+  width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.TextoCarousel {
+  margin-top: 30px;
+  color: #eee;
+  width: auto;
+  font-size: 35px;
+}
+
+.Hacemos {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.Especializacion {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 40px;
+  color: #eee;
+}
+
+.Titulo3 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 30px;
+}
+
+.galeria {
+  width: 100%;
+  background: url(../images/B006.svg) repeat left top;
+  text-align: center;
+  background-color: #222831;
+  border-top: solid 5px #008c30;
+}
+
+.GaleriaFotos {
+  width: 100%;
+  height: 100vh;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#carouselExampleCaptions {
+  width: auto;
+  height: 100vh;
+}
+
+#WspBoton {
+  width: 150px;
+  height: 150px;
+  position: fixed;
+  bottom: -15px;
+  right: 15px;
+  transition: all 300ms ease 0ms;
+
+  z-index: 99;
+  background-color: transparent;
+}
+
+.whats {
+  width: 75px;
+  height: 75px;
+  float: right;
+
+  background-color: transparent;
+}
+
+/* Imagenes */
+
+img {
+  width: auto;
+  height: 7vh;
+  top: 0;
+  left: 0px;
+  right: 0px;
+  bottom: auto;
+  margin: 0;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+#Contactando {
+  display: inline-block;
+}
+
+.Contacto {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  background-color: #393e46;
+  border-top: solid 5px #008c30;
+  *margin-top: 20px;
+  *margin-bottom: 20px;
+  display: inline-block;
+}
+
+.ColumnaTel {
+}
+
+.ColumnaInsta {
+}
+
+.ColumnaMail {
+}
+
+/* sueltos */
+h1 {
+  color: #13498a;
+}
+
+h2 {
+  color: #eee;
+  margin: 10px;
+}
+
+h3 {
+  color: #13498a;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+h4 {
+  color: #13498a;
+}
+h5 {
+  color: #eee;
+}
+a {
+  color: rgb(13, 228, 120);
+}
+
+li {
+  list-style-image: url("https://www.flaticon.com/svg/vstatic/svg/605/605716.svg?token=exp=1615491001~hmac=2efe51af3426d83e3bf7cdf538d77fb7");
+  text-decoration: none;
+}
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+/*footer*/
+
+.hecho {
+  width: auto;
+  height: auto;
+  padding: 5px;
+  color: #eee;
+  display: block;
+  text-align: center;
+}
+
+/* Media Querys */
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  .Especializacion {
+    font-size: 20px;
+  }
+
+  .TabsNav {
+    font-size: 14px;
+    text-align: left;
+  }
+  .LargoMail {
+    font-size: 12px;
+    text-align: left;
+  }
+
+  .hecho {
+    font-size: 11px;
+    text-align: left;
+    padding-left: 20px;
+  }
+  .GaleriaFotos {
+    height: unset;
+  }
+
+  #WspBoton {
+    bottom: -61px;
+  }
+
+  .ImagenLogo {
+    height: 58px;
+    width: auto;
+    max-width: 100%;
+  }
+
+  .ImagenLogo2 {
+    height: 350px;
+    width: 350px;
+    margin-top: -35px;
+    display: inline-block;
+    *max-width: 100%;
+  }
+
+  .SubDescripcion {
+    color: whitesmoke;
+    font-size: 12px;
+    text-align: center;
+    position: absolute;
+    z-index: 98;
+    display: inline-block;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: -270px;
+    margin-top: 270px;
+    padding-bottom: 20px;
+  }
+
+  #header {
+    height: 70px;
+  }
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .MCmarca {
+    font-size: 50px;
+    display: inline-flexbox;
+  }
+
+  .somos {
+    margin-top: 53px;
+  }
+
+  .Presentacion {
+    *height: unset;
+    height: 100vh;
+  }
+
+  .Informacion {
+    margin-top: 150px;
+  }
+
+  .ImagenLogo {
+    height: 50px;
+    width: auto;
+    max-width: 100%;
+  }
+
+  .ImagenLogo2 {
+    height: 220px;
+    width: 220px;
+    margin-top: 15px;
+    display: inline-block;
+    *max-width: 100%;
+  }
+
+  .SubDescripcion {
+    color: whitesmoke;
+    font-size: 10px;
+    text-align: center;
+    position: absolute;
+    z-index: 98;
+    display: inline-block;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: -221px;
+    margin-top: 200px;
+    padding-bottom: 20px;
+  }
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .ImagenLogo {
+    height: 59px;
+    width: auto;
+    max-width: 100%;
+  }
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .SubDescripcion {
+    color: whitesmoke;
+    font-size: 22px;
+    text-align: center;
+    position: absolute;
+    z-index: 98;
+    display: inline-flex;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: -367px;
+    margin-top: 320px;
+    padding-bottom: 20px;
+  }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .ImagenLogo {
+    height: 59px;
+    width: auto;
+    max-width: 100%;
+  }
+
+  .SubDescripcion {
+    color: whitesmoke;
+    font-size: 15px;
+    text-align: center;
+    position: absolute;
+    z-index: 98;
+    display: inline-flex;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: -260px;
+    margin-top: 190px;
+    padding-bottom: 20px;
+  }
+
+  .ImagenLogo2 {
+    height: 210px;
+    width: 210px;
+    margin-left: -10px;
+    margin-top: 5px;
+    display: inline-block;
+    *max-width: 100%;
+  }
+  .GaleriaFotos {
+    height: 100vh;
+  }
+
+  .Informacion {
+    margin-top: 400px;
+  }
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  .ImagenLogo {
+    height: 68px;
+    width: auto;
+    max-width: 100%;
+  }
+
+  .ImagenLogo2 {
+    height: 350px;
+    width: 350px;
+    margin-left: -10px;
+    margin-top: -18px;
+    display: inline-block;
+    *max-width: 100%;
+  }
+
+  .SubDescripcion {
+    color: whitesmoke;
+    font-size: 22px;
+    text-align: center;
+    position: absolute;
+    z-index: 98;
+    display: inline-flex;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: -350px;
+    margin-top: 350px;
+    padding-bottom: 20px;
+  }
+
+  #header {
+    height: 80px;
+  }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  .ImagenLogo {
+    height: 59px;
+    width: auto;
+    max-width: 100%;
+  }
+
+  .ImagenLogo2 {
+    height: 250px;
+    width: 250px;
+    margin-left: -10px;
+    margin-top: -52px;
+    display: inline-block;
+    *max-width: 100%;
+  }
+  .GaleriaFotos {
+    height: 50vh;
+  }
+  .Informacion {
+    margin-top: 600px;
+  }
+  .SubDescripcion {
+    color: whitesmoke;
+    font-size: 15px;
+    text-align: center;
+    position: absolute;
+    z-index: 98;
+    display: inline-flex;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: -300px;
+    margin-top: 170px;
+    padding-bottom: 20px;
+  }
+
+  #header {
+    height: 70px;
+  }
+}
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  .SubDescripcion {
+    color: whitesmoke;
+    *font-size: 36px;
+    text-align: center;
+    z-index: 98;
+    margin-left: -498px;
+    *margin-top: 620px;
+    padding-bottom: 20px;
+  }
+  .ImagenLogo2 {
+    height: 350px;
+    width: 350px;
+    max-width: 100%;
+  }
+}
+
+/* Personaliz */
+
+@media screen and (min-device-width: 720px) and (max-device-width: 1060px) and (-webkit-min-device-pixel-ratio: 1) {
+  .ImagenLogo2 {
+    height: 350px;
+    width: 350px;
+    max-width: 100%;
+  }
+
+  .SubDescripcion {
+    color: whitesmoke;
+    font-size: 22px;
+    text-align: center;
+    position: absolute;
+    z-index: 98;
+    display: inline-flex;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: -420px;
+    margin-top: 460px;
+    padding-bottom: 20px;
+  }
+}
+
+/* samsg & iph 6/7/8 */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 2) {
+  .SubDescripcion {
+    color: whitesmoke;
+    font-size: 22px;
+    text-align: center;
+    position: absolute;
+    z-index: 98;
+    display: inline-flex;
+    text-align: center;
+    *padding-top: 20px;
+    margin-left: -388px;
+    *margin-top: 190px;
+    *padding-bottom: 20px;
+  }
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .ImagenLogo {
+    height: 55px;
+    width: auto;
+    max-width: 100%;
+  }
+}
+/* Landscape */
+
+@media only screen and (min-device-width: 736px) and (max-device-width: 414px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .ImagenLogo {
+    height: 59px;
+    width: auto;
+    max-width: 100%;
+  }
+
+  .SubDescripcion {
+    color: whitesmoke;
+    font-size: 15px;
+    text-align: center;
+    position: absolute;
+    z-index: 98;
+    display: inline-flex;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: -260px;
+    margin-top: 190px;
+    padding-bottom: 20px;
+  }
+
+  .ImagenLogo2 {
+    height: 210px;
+    width: 210px;
+    margin-left: -10px;
+    margin-top: 5px;
+    display: inline-block;
+    *max-width: 100%;
+  }
+  .GaleriaFotos {
+    height: 100vh;
+  }
+
+  .Informacion {
+    margin-top: 400px;
+  }
+}
